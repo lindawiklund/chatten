@@ -1,0 +1,74 @@
+body {
+    background: url(images/galaxy.jpg);
+}
+#page-wrap {
+    width: 300px;
+    position: relative; 
+}
+#chat-area {
+    height: 300px;
+    width: 200px;
+    overflow: auto; 
+    border: 2px solid;
+    border-color: darkblue;
+    background-color: white; 
+}
+#chat-area span {
+    color: white; 
+    background-color: darkmagenta; 
+    padding: 4px 8px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 8px; 
+    margin: 0 5px 0 0; 
+}
+#chat-area p {
+    padding: 8px; 
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+    border-color: darkblue;
+    text-align: left;
+}
+#name-area {
+    position: absolute; 
+    top: 12px; 
+    right: 0; 
+    color: white; 
+    font: bold 12px "Courier New"; 
+    text-align: right; 
+} 
+
+#name-area span {
+    color: #fa9f00; 
+}
+
+#send-message-area p {
+    font-family: "Courier New";
+    float: left; 
+    color: black; 
+    padding-top: 27px; 
+    font-size: 14px; 
+}
+#sendie {
+    border: 2px solid darkblue; 
+    width: 300px;
+    padding: 10px; 
+    font: 12px "Courier New"; 
+    float: right; 
+}
+#panel, #flip {
+    font-family: "Courier New";
+	padding: 5px;
+	text-align: center;
+	background-color: lightgrey;
+	border: solid 1px darkblue;
+}
+#stor {
+	position: fixed;
+	bottom: 0px;
+	right: 100px;
+	width: 300px;
+}
+#panel {
+	padding: 50px;
+	display: none;
+}
